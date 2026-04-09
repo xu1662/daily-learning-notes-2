@@ -23,13 +23,6 @@
 2. 第二步
 3. 第三步
 
-- 代码块
-```python
-print("Hello World")
-def add(a, b):
-    return a + b
-- 三个反引号后面可以加语言名称（python、javascript、bash等），会有语法高亮。
-
 **加粗文字**
 *斜体文字*
 ***加粗斜体***
@@ -43,3 +36,10 @@ def add(a, b):
 > 可以写多行
 
 ---
+
+- 代码块
+```python
+print("Hello World")
+def add(a, b):
+    return a + b
+- 三个反引号后面可以加语言名称（python、javascript、bash等），会有语法高亮。
