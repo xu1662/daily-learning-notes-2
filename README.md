@@ -38,6 +38,7 @@
 ---
 
 - 代码块
+
 ```python
 print("Hello World")
 def add(a, b):
@@ -47,11 +48,7 @@ def add(a, b):
 - 三个反引号后面可以加语言名称（python、javascript、bash等），会有语法高亮。
 
 
-### 用 Python 写一个快速排序
-
-  ✦ 用户要求用 Python 写快速排序，这是一个简单的单步骤任务，直接提供代码实现即可。
-
-  ✦
+用 Python 写一个快速排序
       1 def quick_sort(arr):
       2     if len(arr) <= 1:
       3         return arr
