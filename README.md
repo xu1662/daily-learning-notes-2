@@ -40,10 +40,10 @@
 - 代码块
 
 
-1 ```python
-2 print("Hello World")
-3 def add(a, b):
-4     return a + b
+```python
+print("Hello World")
+def add(a, b):
+    return a + b
 
 
 - 三个反引号后面可以加语言名称（python、javascript、bash等），会有语法高亮。
