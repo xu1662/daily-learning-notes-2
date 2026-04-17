@@ -44,6 +44,7 @@
 print("Hello World")
 def add(a, b):
     return a + b
+```
 
 
 - 三个反引号后面可以加语言名称（python、javascript、bash等），会有语法高亮。
@@ -52,6 +53,7 @@ def add(a, b):
 - 用 Python 写一个快速排序
 
 
+```
       1 def quick_sort(arr):
       2     if len(arr) <= 1:
       3         return arr
@@ -67,8 +69,10 @@ def add(a, b):
      13 # 示例
      14 arr = [3, 6, 8, 10, 1, 2, 1]
      15 print(quick_sort(arr))  # [1, 1, 2, 3, 6, 8, 10]
+```
 
-第 1 行
+
+- 第 1 行
 def quick_sort(arr):
 
 def	定义（define）的缩写，意思是"我要开始定义一个函数了"
@@ -76,7 +80,7 @@ quick_sort	函数的名字，叫"快速排序"
 (arr)	括号里的 arr 是参数，意思是"这个函数需要你给它一个列表，这个列表暂时叫做 arr"
 :	冒号，表示函数定义结束了，下面的缩进代码是函数要做的内容
 
-第 2-3 行
+- 第 2-3 行
     if len(arr) <= 1:
         return arr
 （前面4个空格）	缩进，表示这几行代码属于上面的 quick_sort 函数
@@ -89,7 +93,7 @@ return	返回，意思是"把后面的东西作为结果送回去"
 arr	就是原来的那个列表
 整句翻译：如果这个列表的长度小于等于 1（也就是空的或者只有一个元素），那就直接把这个列表原样返回（因为它已经有序了，不用排）。
 
-第 5 行
+- 第 5 行
     pivot = arr[len(arr) // 2]
 pivot	基准值，这是快速排序里的一个名字
 =	赋值，把右边算出来的结果存到左边这个名字里
